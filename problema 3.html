@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 2</title> </head>
+    <link rel="stylesheet" href="css/estilo.css">
+  <body>
+    <div id="sidebar">
+      <div class="toggle-btn">
+        <span>&#9776</span>
+      </div>
+      <ul>
+        <li>
+          <img src="img/mieruko-chan.jpg"  width="100" height="100" alt="Logo" class="logo">
+        </li>
+        <li>
+          <a class="text-muted" href="Index.html">Volver al Inicio</a>
+        </li>
+        <li>
+          <a class="text-muted" href="problema 1.html">Ver Problema 1</a>
+        </li>
+        <li>
+          <a class="text-muted" href="problema 2.html">Ver Problema 2</a>
+        </li>
+        <li><a class="text-muted" href="problema 3.html">Ver Problema 3</a>
+        </li>
+        <li>
+          <a class="text-muted" href="problema 4.html">Ver Problema 4</a>
+        </li>
+        <li>
+          <a class="text-muted" href="problema 5.html">Ver Problema 5</a>
+        </li>
+      </ul>
+    </div>
+    <script src="js/bootstrap.js"></script>
+      <center>
+        <h5><script>
+            let Nu1, Nu2;
+            Nu1 = parseInt(prompt("Ingrese el Primer Número:"));
+            Nu2 = parseInt(prompt("Ingrese el Segundo Número:"));
+            if (Nu1 > Nu2) {
+                let suma, diferencia;
+                suma = Nu1 + Nu2;
+                diferencia = Nu1 - Nu2;
+                document.write("La Suma es:" + suma);
+                document.write("<br>");
+                document.write("La Diferencia es:" + diferencia);
+            } else {
+                let producto, division;
+                producto = Nu1 * Nu2;
+                division = Nu1 / Nu2;
+                document.write("El Producto es " + producto);
+                document.write("<br>");
+                document.write("La División del Primer Número respecto al Segundo Número es:" + division);
+            }
+        </script></h5>
+        </center>
+</body>
+</html>
